@@ -1,0 +1,60 @@
+
+.card {
+    max-width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   background-color: #FFDFB9 ;
+  }
+  .cont{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding-top:1rem;
+  }
+  .legs{
+    position:absolute;
+  }
+  .card-image {
+    border-radius:50%;
+    height:10rem;
+    width:10rem;
+
+  }
+  
+ 
+  .card-name {
+
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    font-weight: bold;
+    color:#3F1B1B;
+  }
+  
+  
+  .card-contact {
+    margin-top: 4px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5;
+    font-size: 10px;
+  }
+  
+  #adresse{
+    display: flex;
+    align-items: center;
+  }
+  #phone{
+    display: flex;
+    align-items: center;
+  }
+
+  #gmail{
+    display: flex;
+    align-items: center;
+  }

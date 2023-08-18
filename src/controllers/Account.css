@@ -1,0 +1,131 @@
+#form-veterinary{
+  background-color: #FFDFB9;
+
+}
+
+#logoadd{
+    width:4rem;
+}
+#pet{
+    color: #733838;
+}
+#veterinary{
+    color: #FFDFB9;
+
+}
+.form{
+    background-color: #FFDFB9;
+    display: flex;
+    flex-direction: column;
+ width: 50%;
+ justify-content: center;
+ align-items: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#choice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  form {
+    border-radius: 10px;
+  }
+
+  input{
+    border: 1px solid  !important;
+    width: 70%  !important;
+  }
+
+  
+  select{
+    width: 85%;
+    border-radius: 10px;
+    background-color: #FFDFB9;
+    height:2rem;
+  }
+  label{
+   margin-left: 30px;
+  }
+
+  .pic {
+    height: 0px !important;
+    opacity: 0;
+    
+  }
+#switchVeterinary{
+  margin-bottom: 10rem;
+}
+  .container{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    flex-direction : column;
+  }
+  .leg{
+    position: relative;
+ }
+@media (max-width:1000px){
+    #logoadd{
+        width:2.5rem;
+    } 
+    .form{
+        background-color: #FFDFB9;
+        display: flex;
+        flex-direction: column;
+     width: 90%;
+     justify-content: center;
+     align-items: center;
+    }
+    #choice{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+    }
+}
+
+
+@media (max-width:600px){
+  
+   
+  
+
+    #ownCards{
+    
+      width: 80%;
+  }
+}
+
+@media( min-width: 1000px){
+
+ #ownCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  width: 90%;
+
+}
+
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+
+
+  #ownCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    width: 90%;
+
+
+  }
+
+}

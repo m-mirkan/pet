@@ -1,0 +1,60 @@
+.content-v{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#searchVeterinary{
+    width: 80%;
+}
+
+
+
+
+@media (max-width:600px){
+  
+   
+    #logoveterinarians{
+        width:2.5rem;
+    } 
+  
+
+      .veterinarians{
+      
+        width: 80%;
+    }
+}
+
+@media( min-width: 1000px){
+    #logoveterinarians{
+        width:4rem;
+          }
+   .veterinarians{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    width: 90%;
+
+}
+
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+     
+    #logoveterinarians{
+        width:4rem;
+    }
+
+    .veterinarians {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-content: center;
+      width: 90%;
+
+
+    }
+
+  }
+ 

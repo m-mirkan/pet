@@ -1,0 +1,17 @@
+
+
+@media (min-width:600px){
+   
+    .inside{
+        display:flex;
+        
+    }
+    .sidebare{
+        width:200px;
+    }
+     
+    .content{
+        flex: 1;
+    }
+
+}
